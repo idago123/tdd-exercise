@@ -56,7 +56,7 @@ describe 'Blackjack Score' do
 
   it 'raises an ArgumentError for invalid cards' do
     expect {
-      blackjack_score(['cat', 4, 'dog'])
+      blackjack_score(['cat', 2, 'dog'])
     }.must_raise ArgumentError
 
   end
